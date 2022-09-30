@@ -1,10 +1,14 @@
 
 import './App.css';
+import Navbar from './components/Navbar/Navbar';
+import Section1 from './components/Section/Section1';
+
 
 function App() {
   return (
     <div className='App'>
-      <h1 className='text-3xl w-fit mx-auto font-bold hover:underline text-blue-600'>Hello world!</h1>
+      <Navbar />
+      <Section1 />
     </div>
   );
 }
