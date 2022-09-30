@@ -3,8 +3,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1> hello this is New TailWind Css Project</h1>
+    <div className='App'>
+      <h1 className='text-3xl w-fit mx-auto font-bold hover:underline text-blue-600'>Hello world!</h1>
     </div>
   );
 }
